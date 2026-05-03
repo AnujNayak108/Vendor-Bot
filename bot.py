@@ -786,11 +786,11 @@ async def healthz():
 @app.get("/v1/metadata")
 async def metadata():
     return {
-        "team_name": "Challenge Participant",
-        "team_members": ["Vera Bot"],
+        "team_name": "binaryspot",
+        "team_members": ["anuj nayak"],
         "model": "deterministic-template-composer",
         "approach": "Trigger-dispatched, dataset-grounded copy; multi-turn auto-reply + intent routing",
-        "contact_email": "participant@example.com",
+        "contact_email": "anujnayak108@gmail.com",
         "version": "1.0.0",
         "submitted_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
     }
