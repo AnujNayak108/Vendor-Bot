@@ -1,5 +1,4 @@
-# Vera challenge bot
-
+# Vendor Bot
 ## What this is
 
 A **dataset-grounded** composer for the magicpin merchant AI assistant challenge: one `compose(category, merchant, trigger, customer)` function plus a **FastAPI** service matching `challenge-testing-brief.md` (`/v1/context`, `/v1/tick`, `/v1/reply`, `/v1/healthz`, `/v1/metadata`).
